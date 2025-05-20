@@ -1,0 +1,31 @@
+<h2>Cadastro de Disponibilidade</h2>
+<form id="formDisponibilidade" class="form-block">
+  <label for="especialidade">Especialidade:</label>
+  <select id="especialidade" required></select>
+
+  <label for="medico">Médico:</label>
+  <input type="text" id="medico" placeholder="Ex: Dr. João" required>
+
+  <label for="diaSemana">Dia da Semana:</label>
+  <select id="diaSemana" required>
+    <option value="Segunda-feira">Segunda-feira</option>
+    <option value="Terça-feira">Terça-feira</option>
+    <option value="Quarta-feira">Quarta-feira</option>
+    <option value="Quinta-feira">Quinta-feira</option>
+    <option value="Sexta-feira">Sexta-feira</option>
+    <option value="Sábado">Sábado</option>
+    <option value="Domingo">Domingo</option>
+  </select>
+
+  <label for="horaInicio">Hora Início:</label>
+  <input type="time" id="horaInicio" required>
+
+  <label for="horaFim">Hora Fim:</label>
+  <input type="time" id="horaFim" required>
+
+  <label for="duracao">Duração da Consulta (minutos):</label>
+  <input type="number" id="duracao" required min="1">
+
+  <button type="submit">Cadastrar Disponibilidade</button>
+  <p id="mensagem" class="mensagem-status"></p>
+</form>
