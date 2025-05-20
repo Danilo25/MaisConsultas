@@ -68,7 +68,7 @@ MaisConsultas/
 ### 🔧 Subir com Docker
 
 ```bash
-git clone https://github.com/seu-usuario/maisconsultas.git
+git clone https://github.com/Danilo25/MaisConsultas.git
 cd maisconsultas
 docker-compose up --build
 ```
